@@ -78,7 +78,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='ls --color'
 alias ll='ls -al'
-alias vim='nvim'
 alias c='clear'
 alias aws-check='ensure_aws_sso_login'
 alias aws-status='AWS_PROFILE=dev-engineer aws sts get-caller-identity'
